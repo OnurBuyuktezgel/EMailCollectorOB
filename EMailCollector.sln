@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMailCollector.POCApp", "EMailCollector.POCApp\EMailCollector.POCApp.csproj", "{5A2C9E37-6264-4D4D-9D2F-1AD88200C385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMailCollector.Test", "EMailCollector.Test\EMailCollector.Test.csproj", "{A43C7B87-EFCD-49AA-A7D9-9F0E130A8888}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2C9E37-6264-4D4D-9D2F-1AD88200C385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2C9E37-6264-4D4D-9D2F-1AD88200C385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2C9E37-6264-4D4D-9D2F-1AD88200C385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2C9E37-6264-4D4D-9D2F-1AD88200C385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43C7B87-EFCD-49AA-A7D9-9F0E130A8888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43C7B87-EFCD-49AA-A7D9-9F0E130A8888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43C7B87-EFCD-49AA-A7D9-9F0E130A8888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43C7B87-EFCD-49AA-A7D9-9F0E130A8888}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B88CE9BD-CBD6-46E2-AC24-882EBF5D6F1C}
+	EndGlobalSection
+EndGlobal

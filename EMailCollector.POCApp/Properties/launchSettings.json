@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EMailCollector.POCApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\USER\\Desktop\\sourcedomains.txt"
+    }
+  }
+}
