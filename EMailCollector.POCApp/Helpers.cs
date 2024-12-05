@@ -24,7 +24,7 @@ public class Helpers
         
         Regex rx = new Regex(validationPattern,
           RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.Singleline, 
-          TimeSpan.FromSeconds(20));
+          TimeSpan.FromSeconds(30));
 
         // Find matches.
         MatchCollection matches = rx.Matches(SourceText.ToLower());
