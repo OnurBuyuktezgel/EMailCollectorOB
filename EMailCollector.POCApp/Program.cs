@@ -43,8 +43,8 @@ using (StreamReader sr = File.OpenText(fileName))
             {
                 client.DefaultRequestHeaders.Add(USER_AGENT_KEY, USER_AGENT_VALUE);
 
-                //set timeout to 10 secs
-                client.Timeout = TimeSpan.FromSeconds(10);
+                //set timeout to 20 secs
+                client.Timeout = TimeSpan.FromSeconds(20);
 
                 content = await client.GetStringAsync(s);
             }
